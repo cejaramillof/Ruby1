@@ -14,7 +14,7 @@
   Características:
     -Terminología orientada al Inglés.
     -Permite a sus usuarios alterarlo libremente.
-    -Mezcla lo esencial de lenguajes como Ada, Perl, SmalTalk y Phyton.
+    -Mezcla lo esencial de lenguajes como Ada, Perl, SmalTalk y Python.
     -Ruby es Tipeado y no necesitas declarar variables para usarlas.
     -Es un lenguaje totalmente orientado a objetos. (En Ruby todo es un objeto).
 
