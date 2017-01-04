@@ -4,7 +4,8 @@
       puts “Hola Mundo”
       gets()
     ruby holamundo.rb
-  Puts es el método
+  puts es el método que imprime en block ocupando en una linea completa.
+  print lo imprime inline-block: (salto de linea igual que en C) print "\n"
   gets #Entrada teclado para que no se cierre de una
 
   Buena Forma:
