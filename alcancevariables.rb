@@ -2,9 +2,9 @@
   El alcance de las variables es el scope, o la visibilidad que va tener la variable es decir en qué rango o en qué partes de nuestro codigo podemos usar dicha variable.
 
   Existen 3 tipos: 
-    -Globales
+    -$Globales
     -Locales
-    -de Instancia
+    -@deInstancia ó @deClase (se heredan)
 
     PD: Los programadores avanzados no acostumbran usar globales porque si tenemos una App muy grande esperando imprimir algo y no imprime eso. tienes que buscar en qué parte de toda la app fue modiciada.
 =end
