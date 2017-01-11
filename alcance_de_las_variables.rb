@@ -8,24 +8,21 @@
 
     PD: Los programadores avanzados no acostumbran usar globales porque si tenemos una App muy grande esperando imprimir algo y no imprime eso. tienes que buscar en qué parte de toda la app fue modiciada.
 =end
-
 #Variables Globales: La podemos usar en cualquier parte del código
-  $ejemplo = "Hola codigo global"  
-
+$ejemplo = "Hola codigo global" 
 class HolaMundo
-    def initialize()
+  def initialize()
     #Variables de Instancia: Solo esta disponible dentro de la clase que fue declarada
-      @ejemplo = "Soy una variable de instancia"      
-    end
-    def saluda()
+    @ejemplo = "Soy una variable de instancia"      
+  end
+  def saluda()
     #Variables Locales: Solo esta disponible en el método que fue declarada.
-      ejemplo = "Soy una variable local"
-      
-      puts ejemplo
-      puts $ejemplo
-      puts @ejemplo
-    end
-    objeto = HolaMundo.new()
-    objeto.saluda
-    gets()
-end
+    ejemplo = "Soy una variable local"
+    puts ejemplo
+    puts $ejemplo
+    puts @ejemplo
+  end
+end  
+objeto = HolaMundo.new()
+objeto.saluda
+gets()

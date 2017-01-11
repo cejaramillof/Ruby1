@@ -6,15 +6,15 @@
   Los valores booleanos no existen, devolvemos true si existe o false si no
 =end
 class HolaMundo
-    def initialize()
-    end
-    def saluda()
-      nombre = "Hola Carlos"
-      valorUno = 1
-      valorDos = 2.2
-      puts "nombre #{valorUno + valorDos}"
-    end
-    objeto = HolaMundo.new()
-    objeto.saluda
-    gets()
+  def initialize()
+  end
+  def saluda()
+    nombre = "Hola Carlos"
+    valorUno = 1
+    valorDos = 2.2
+    puts "nombre #{valorUno + valorDos}"
+  end
 end
+objeto = HolaMundo.new()
+objeto.saluda
+gets()
